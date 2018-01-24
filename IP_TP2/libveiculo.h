@@ -21,10 +21,10 @@ typedef struct veiculo{
 	float consumomedio;
 } veiculo, *ptrveiculo;
 
-int insereveiculo(int, int, char[], char[], char[], int, float, float, float);
-int alteraveiculo(int);
-void eliminaveiculo(void);
-void listaveiculo(void);
+int insereveiculo(int, int, char[], char[], char[], int, float, float, float);//inserir veiculo a receber um int e devolve os parametros
+int alteraveiculo(int);//alterar o veiculo
+void eliminaveiculo(void);//eliminar o veiculo
+void listaveiculo(void);// lista dos veiculos
 
 int insereveiculo(int idveiculo, int tipoveiculo, char marca[], char modelo[], char matricula[], int datamatricula, float custopkm, float valorreservacombustivel, float consumomedio){
 	FILE *ficheiro;
