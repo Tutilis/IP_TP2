@@ -11,14 +11,14 @@
 #include <stdlib.h>
 #include "libveiculo.h"
 
-void menu(void);
-void menuveiculos(void);
-void menuviaturas(void);
-void menumotoristas(void);
-void menuviagens(void);
-void menuestatistica(void);
+void menu(void);//menu geral
+void menuveiculos(void);//função menu dos veiculos
+void menuviaturas(void);//função menu das viaturas
+void menumotoristas(void);//função menu dos motoristas
+void menuviagens(void);//função menu de viagens
+void menuestatistica(void);//função do menu de estatisticas
 
-void registaveiculo(void);
+void registaveiculo(void);// função registo de veiculos
 
 void menu(){
 	char opcao = ' ';
